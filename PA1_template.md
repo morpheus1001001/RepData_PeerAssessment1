@@ -1,12 +1,4 @@
----
-title: "Course Project 1"
-author: "Alex"
-date: "February 22, 2018"
-output: 
-  html_document: 
-    fig_caption: yes
-    keep_md: yes
----
+# Course Project 1
 
 ## Introduction
 
@@ -127,7 +119,7 @@ with(totalstepsperday,
      )
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-8-1.png)<!-- -->
+![plot of chunk unnamed-chunk-8](figure/unnamed-chunk-8-1.png)
 
 3. Here is the code to calculate the mean and the median number of steps per day.
 
@@ -194,7 +186,7 @@ with(avgstepsperinterval,
      )
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-11-1.png)<!-- -->
+![plot of chunk unnamed-chunk-11](figure/unnamed-chunk-11-1.png)
 
 6. The code for determining the intarval that has the maximum number of steps is:
 
@@ -288,7 +280,7 @@ with(totalstepsperday2,
      )
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-18-1.png)<!-- -->
+![plot of chunk unnamed-chunk-18](figure/unnamed-chunk-18-1.png)
 
 Here is the code to calculate the mean and the median number of steps per day.
 
@@ -371,6 +363,6 @@ with(avgstepsperintervalday,
 )
 ```
 
-![](PA1_template_files/figure-html/unnamed-chunk-22-1.png)<!-- -->
+![plot of chunk unnamed-chunk-22](figure/unnamed-chunk-22-1.png)
 
 We can notice that the average number of steps tends to be higher on the weekend days comparing with the weekdays with one exception between the interval 500 and 1000.
